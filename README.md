@@ -6,4 +6,6 @@
 
 [ДЗ 3.](https://github.com/Al-Zhukov/yandex_algorithm_2/tree/main/3B) Множества. Условия доступны в [контесте](https://contest.yandex.ru/contest/28964).
 
+[ДЗ 4.](https://github.com/Al-Zhukov/yandex_algorithm_2/tree/main/4B) Словари и сортировка подсчётом. Условия доступны в [контесте](https://contest.yandex.ru/contest/28970).
+
 
