@@ -1,4 +1,5 @@
 def naive(S, A, B, C):
+    # Наивное решение за O(N^3)
     for i in range(A[0]):
         for j in range(B[0]):
             for k in range(C[0]):
@@ -7,6 +8,7 @@ def naive(S, A, B, C):
     return [-1]
 
 def func_with_dict(S, A, B, C):
+    # Решение через перебор А и В и проверку С в хэш-таблице. O(N^2)
     C_dict = {}
     for i in range(C[0]):
         if C[i + 1] not in C_dict:
@@ -19,6 +21,7 @@ def func_with_dict(S, A, B, C):
     return [-1]
 
 def func_with_two_index(S, A, B, C):
+    # Решение через перебор А и два встречных указателя, бегущих по В и С. O(N^2)
     B_order = []
     for i in range(B[0]):
         B_order.append([B[i + 1], i])
@@ -45,6 +48,7 @@ def func_with_two_index(S, A, B, C):
                 right -= 1
             else:
                 left += 1
+
     if len(answers) == 0:
         return [-1]
     else:
@@ -77,7 +81,7 @@ def test():
         C = [c] + [random.randint(1, 5) for _ in range(c)]
 
         if func_to_check(S, A, B, C) != naive(S, A, B, C):
-            print('Houston, we got a problem!')
+            print('Houston, we have a problem!')
             print(S, A, B, C)
             print('naive output', naive(S, A, B, C))
             print('func output', func_to_check(S, A, B, C))
