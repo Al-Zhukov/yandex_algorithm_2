@@ -11,3 +11,5 @@
 [ДЗ 5.](https://github.com/Al-Zhukov/yandex_algorithm_2/tree/main/5B) Префиксные суммы и два указателя. Условия доступны в [контесте](https://contest.yandex.ru/contest/29075).
 
 [ДЗ 6.](https://github.com/Al-Zhukov/yandex_algorithm_2/tree/main/6B) Бинарный поиск. Условия доступны в [контесте](https://contest.yandex.ru/contest/29188).
+
+[ДЗ 7.](https://github.com/Al-Zhukov/yandex_algorithm_2/tree/main/7B) Сортировка событий. Условия доступны в [контесте](https://contest.yandex.ru/contest/29396).
