@@ -13,3 +13,5 @@
 [ДЗ 6.](https://github.com/Al-Zhukov/yandex_algorithm_2/tree/main/6B) Бинарный поиск. Условия доступны в [контесте](https://contest.yandex.ru/contest/29188).
 
 [ДЗ 7.](https://github.com/Al-Zhukov/yandex_algorithm_2/tree/main/7B) Сортировка событий. Условия доступны в [контесте](https://contest.yandex.ru/contest/29396).
+
+[ДЗ 8.](https://github.com/Al-Zhukov/yandex_algorithm_2/tree/main/8B) Деревья. Условия доступны в [контесте](https://contest.yandex.ru/contest/29403).
